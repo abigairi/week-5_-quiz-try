@@ -7,7 +7,7 @@ class BankAccount:
 
 def __repr__(self):
     return f"account_number: {self.no} \n balance: {self.balance} \n name: {self.name} \ \n type : {self.type }"
-bank_account=BankAccount("43526772872",400000,"prisca","Tembo account")
+bank_account=BankAccount("43526772872",400000,"Abby a/c","Tembo account")
 print(f"My bankaccount is {bank_account.no}\n balance is {bank_account.balance}\n account name is {bank_account.name}\n account type is {bank_account.type}")
 
     
@@ -31,7 +31,7 @@ class Customer:
 
 def __repr__(self):
     return f" <{self.name} {self.account}>"
-customer=Customer("prisca", 34262627777777774)
+customer=Customer("Abby a/c", 34262627777777774)
 print(f"Enter customer name {customer.name}\n a/name is {customer.account}")
 
 
